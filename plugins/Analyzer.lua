@@ -1,4 +1,4 @@
---Begin msg_checks.lua By @SoLiD
+
 local function pre_process(msg)
 local data = load_data(_config.moderation.data)
 local chat = msg.to.id
@@ -495,4 +495,3 @@ return {
 	patterns = {},
 	pre_process = pre_process
 }
---End msg_checks.lua--
