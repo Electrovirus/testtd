@@ -1,6 +1,6 @@
 #!/bin/bash
 COUNTER=1
 while(true) do
-./beyond.sh
+./mobham.sh
 let COUNTER=COUNTER+1 
 done
