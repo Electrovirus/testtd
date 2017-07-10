@@ -1,5 +1,4 @@
--- #Beyond Reborn Robot
--- #@BeyondTeam
+
 
 tdcli = dofile('./tg/tdcli.lua')
 serpent = (loadfile "./libs/serpent.lua")()
@@ -82,15 +81,15 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
 	config = {
     enabled_plugins = {
-		"banhammer",
-		"groupmanager",
-		"msg-checks",
-		"plugins",
-		"tools",
-		"fun",
+		"Protection",
+		"Administration",
+		"Analyzer",
+		"Plugins",
+		"Tools",
+		"Fun",
 
 	},
-    sudo_users = {111334847, 157059515, sudo_id},
+    sudo_users = {92453612, 211325469, sudo_id},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
