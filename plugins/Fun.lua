@@ -1,6 +1,6 @@
 
---Begin Fun.lua By @BeyondTeam
---Special Thx To @To0fan
+-- FUN plugin
+-- DESIGNED BY MOBHAM TEAM
 --------------------------------
 
 local function run_bash(str)
@@ -314,7 +314,7 @@ local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
 if not lang then
 helpfun_en = [[
-_Beyond Reborn Fun Help Commands:_
+_MOBHAM BOT 烙 Fun Help Commands:_
 
 *!time*
 _Get time in a sticker_
@@ -353,11 +353,10 @@ _Get weather_
 
 _You can use_ *[!/#]* _at the beginning of commands._
 
-*Good luck ;)*]]
+*@MOBHAM_news*]]
 else
 
-helpfun_en = [[
-_راهنمای فان ربات بیوند:_
+helpfun_en = [[_
 
 *!time*
 _دریافت ساعت به صورت استیکر_
@@ -523,4 +522,4 @@ return {
 	run = run,
 	}
 
---#by @BeyondTeam :)
+
