@@ -356,7 +356,7 @@ _You can use_ *[!/#]* _at the beginning of commands._
 *@MOBHAM_news*]]
 else
 
-helpfun_en = [[_
+helpfun_en = [[_mobham_
 
 *!time*
 _دریافت ساعت به صورت استیکر_
